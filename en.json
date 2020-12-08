@@ -28,7 +28,7 @@
 		"search": "Search"
 	},
 	"order": {
-		"title": "order",
+		"order": "order",
 	    "use_reward": "Use reward ({{amount}} maximum)",
 	    "use": "Use",
 	    "loyalty_used": "Loyalty reward {{amount}}",
