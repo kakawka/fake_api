@@ -4,7 +4,8 @@
 		"app_name": "Hot & Grill",
 		"start": "Start the app",
 		"signup": "Signup",
-		"login": "Already have an account?"
+		"login": "Already have an account?",
+		"skip": "Continue without login"
 	},
 	"tabs": {
 		"news": "News",
@@ -14,26 +15,31 @@
     "loyalty": "Loyalty program"
 	},
   "loyalty": {
+  	"title": "Loyalty program",
     "heading": "Order From Hot & Grill And Get Rewarded",
+    "next_reward": "Before the next reward",
     "login": "Login to participate",
-    "description": "every <b>{{loyalty_points_per_amount}}</b> spent gives you <b>{{loyalty_points_per_order}}</b> points and for every <b>{{loyalty_points_for_reward}}</b> points get you <b>{{loyalty_reward_amount}}</b> in credit"
+    "description": "every {} spent gives you {} points and for every {} points get you {} in credit"
   },
 	"products": {
+		"title": "Products",
 		"to_cart": "Add to cart",
-		"in_cart": "Already in cart"
+		"in_cart": "Already in cart",
+		"search": "Search"
 	},
 	"order": {
-    "use_reward": "Use reward ({{amount}} maximum)",
-    "use": "Use",
-    "loyalty_used": "Loyalty reward {{amount}}",
-    "price": "Order price",
+		"title": "order",
+	    "use_reward": "Use reward ({{amount}} maximum)",
+	    "use": "Use",
+	    "loyalty_used": "Loyalty reward {{amount}}",
+	    "price": "Order price",
 		"id": "Order #{{id}}",
 		"view": "Order details",
 		"title": "Make an Order",
 		"name": "Name",
 		"phone": "Phone",
 		"address": "Address",
-    "comment": "Comment",
+    	"comment": "Comment",
 		"promo_code": "Promo code",
 		"click_to_write": "Click to write",
 		"optional": "Optional",
@@ -98,7 +104,8 @@
 		"city": "City",
 		"button": "Signup",
 		"login": "Login using existing account",
-		"error": "General error has occurred during signup"
+		"error": "General error has occurred during signup",
+		"skip": "Continue without login"
 	},
 	"menu": {
 		"profile": "Profile & Settings",
@@ -123,6 +130,12 @@
 		"button": "Login",
 		"no_account": "Signup for new account",
 		"error": "Email or password is wrong",
-    "skip": "Continue without login"
+    	"skip": "Continue without login"
+	},
+	"validation_errors": {
+		"valid": "Enter a valid {}",
+		"required": "Required"
 	}
+
+
 }
